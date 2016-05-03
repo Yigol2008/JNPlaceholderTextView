@@ -1,0 +1,2 @@
+# JNPlaceholderTextView
+TextView带 placeholder，可限制text的输入字数
