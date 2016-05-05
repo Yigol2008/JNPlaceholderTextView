@@ -20,11 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-//    self.textView.placeholder = @"hehe";
-//    self.textView.placeholderFontSize = 18.0f;
-//    self.textView.placeholderColor = [UIColor brownColor];
-    
+    self.textView.placeholder = @"Hello world";
+    self.textView.placeholderFontSize = 18.0f;
+    self.textView.placeholderColor = [UIColor brownColor];
     self.textView.maxLimitLength = 10;
 }
 
