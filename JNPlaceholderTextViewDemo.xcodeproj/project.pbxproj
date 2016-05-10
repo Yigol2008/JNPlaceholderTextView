@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B69DD0AB1CE22006007D9BB9 /* JNPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B69DD0AA1CE22006007D9BB9 /* JNPlaceholderTextView.m */; };
 		B6C5C8071CD8A8FC00638881 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C5C8061CD8A8FC00638881 /* main.m */; };
 		B6C5C80A1CD8A8FC00638881 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C5C8091CD8A8FC00638881 /* AppDelegate.m */; };
 		B6C5C80D1CD8A8FC00638881 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C5C80C1CD8A8FC00638881 /* ViewController.m */; };
 		B6C5C8101CD8A8FC00638881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C5C80E1CD8A8FC00638881 /* Main.storyboard */; };
 		B6C5C8121CD8A8FC00638881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C5C8111CD8A8FC00638881 /* Assets.xcassets */; };
 		B6C5C8151CD8A8FC00638881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C5C8131CD8A8FC00638881 /* LaunchScreen.storyboard */; };
-		B6C5C81F1CD8A93B00638881 /* JNPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C5C81E1CD8A93B00638881 /* JNPlaceholderTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B69DD0A91CE22006007D9BB9 /* JNPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNPlaceholderTextView.h; sourceTree = "<group>"; };
+		B69DD0AA1CE22006007D9BB9 /* JNPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNPlaceholderTextView.m; sourceTree = "<group>"; };
 		B6C5C8021CD8A8FC00638881 /* JNPlaceholderTextViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNPlaceholderTextViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C5C8061CD8A8FC00638881 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6C5C8081CD8A8FC00638881 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		B6C5C8111CD8A8FC00638881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6C5C8141CD8A8FC00638881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6C5C8161CD8A8FC00638881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6C5C81D1CD8A93B00638881 /* JNPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNPlaceholderTextView.h; sourceTree = "<group>"; };
-		B6C5C81E1CD8A93B00638881 /* JNPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNPlaceholderTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B69DD0A81CE22006007D9BB9 /* JNPlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				B69DD0A91CE22006007D9BB9 /* JNPlaceholderTextView.h */,
+				B69DD0AA1CE22006007D9BB9 /* JNPlaceholderTextView.m */,
+			);
+			path = JNPlaceholderTextView;
+			sourceTree = "<group>";
+		};
 		B6C5C7F91CD8A8FC00638881 = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +70,7 @@
 		B6C5C8041CD8A8FC00638881 /* JNPlaceholderTextViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B6C5C81C1CD8A90B00638881 /* JNPlaceholderTextView */,
+				B69DD0A81CE22006007D9BB9 /* JNPlaceholderTextView */,
 				B6C5C8081CD8A8FC00638881 /* AppDelegate.h */,
 				B6C5C8091CD8A8FC00638881 /* AppDelegate.m */,
 				B6C5C80B1CD8A8FC00638881 /* ViewController.h */,
@@ -81,15 +90,6 @@
 				B6C5C8061CD8A8FC00638881 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B6C5C81C1CD8A90B00638881 /* JNPlaceholderTextView */ = {
-			isa = PBXGroup;
-			children = (
-				B6C5C81D1CD8A93B00638881 /* JNPlaceholderTextView.h */,
-				B6C5C81E1CD8A93B00638881 /* JNPlaceholderTextView.m */,
-			);
-			path = JNPlaceholderTextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6C5C80D1CD8A8FC00638881 /* ViewController.m in Sources */,
-				B6C5C81F1CD8A93B00638881 /* JNPlaceholderTextView.m in Sources */,
+				B69DD0AB1CE22006007D9BB9 /* JNPlaceholderTextView.m in Sources */,
 				B6C5C80A1CD8A8FC00638881 /* AppDelegate.m in Sources */,
 				B6C5C8071CD8A8FC00638881 /* main.m in Sources */,
 			);
@@ -314,6 +314,7 @@
 				B6C5C81B1CD8A8FC00638881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
