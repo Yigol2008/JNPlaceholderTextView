@@ -5,17 +5,15 @@
 ###如何使用：
 
 #####使用CocoaPods:
-```objc
-platform :ios, '8.0'
-```
 
 ```ruby
+platform :ios, '8.0'
 pod 'JNPlaceholderTextView'
 ```
 
 #####导入头文件：
 
-```
+```objc
 #import "JNPlaceholderTextView.h"
 ```
 #####申明变量：
