@@ -1,5 +1,6 @@
 //
 //  JNPlaceholderTextView.m
+//  https://github.com/Yigol2008/JNPlaceholderTextView
 //
 //  Created by Yigol on 16/5/3.
 //  Copyright © 2016年 Injoinow. All rights reserved.
