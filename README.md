@@ -1,7 +1,7 @@
 # JNPlaceholderTextView
 
 #### 基于UITextView，增加placeholder功能，增加限制text的输入字数功能
-===
+---
 ### 如何使用：
 
 ##### 使用CocoaPods:
@@ -45,5 +45,5 @@ self.textView.maxLimitLength = 10;
 ```
 
 ### 协议（Licenses）
-===
+---
 - JNPlaceholderTextView 被许可在 MIT 协议下使用。查阅 LICENSE 文件来获得更多信息。
